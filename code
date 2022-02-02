@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <string.h>
+#define MAX 2
+
+typedef struct archivio {
+    char numeroPreventivo;
+    float prezzoPreventivo;
+    }preventivi;
+
+int main() {
+    preventivi a[MAX];
+    int i=0;
+    int somma=0;
+    char selta;
+    char selezione;
+do {
+        printf("seleziona tipo di azione: Aggiunta, Modifica, Eliminazione (A/M/E)\n");
+        scanf("%c", &selezione);
+if(selezione=='a')
+    printf("Numero Preventivo\n");
+    scanf("%c", &a[i].numeroPreventivo);
+    printf("Importo Preventivo\n");
+    scanf("%f", &a[i].prezzo);
+somma=somma+a[i].prezzo);
+    i++;
+    printf("vuoi inserire un'altro preventivo: Si, No(S/N)?");
+    scanf("%c", &scelta); 
+}
+while ((scelta=='s')&&(i<6));
+if (scelta=='s');
+    printf("limite preventivi raggiunto\n");
+        printf("preventivo0 %c \n",a[0}.numeroPreventivo);
+            printf("preventivo1 %c \n",a[1}.numeroPreventivo);
+                printf("preventivo2 %c \n",a[2}.numeroPreventivo);
+                    printf("preventivo3 %c \n",a[3}.numeroPreventivo);
+                        printf("preventivo4 %c \n",a[4}.numeroPreventivo);
+                            printf("preventivo5 %c \n",a[5}.numeroPreventivo);
+    
+    
+    
+return 0;
+    
+}
